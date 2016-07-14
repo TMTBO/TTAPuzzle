@@ -14,7 +14,7 @@ class TTAView: UIView {
     /// 重排后位置索引
     var index: Int = 0
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         print("=======>index\(index)  \(location)")
     }
 }

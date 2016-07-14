@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     /// 测试方法
-    func testGetLastDifferentFromWinArray(picArray: inout [TTAView], pictureLayerView: UIView, resultPicArray: inout [TTAView], preViewW: CGFloat, preViewH: CGFloat, locationFrameDic: inout [String: CGRect], missingPartLocation: inout CGPoint) {
+    func testGetLastDifferentFromWinArray(inout picArray: [TTAView], pictureLayerView: UIView, inout resultPicArray: [TTAView], preViewW: CGFloat, preViewH: CGFloat, inout locationFrameDic: [String: CGRect], inout missingPartLocation: CGPoint) {
             // print("======>func \(#function)")
             // print("======>pic  \(picArray.count)")
             
